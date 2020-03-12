@@ -1,7 +1,13 @@
 # Vault usage sample with scripts
 
-password 1 is : pwd1
-password 2 is : pwd2
+Ce playbooks est un exemple d'utilisation plus complète que ce que l'on peut penser utiliser au premier abord. Cette méthode permet d'avoir plusieurs vaults avec chacun son mot de passe voir quelques uns qui peuvent se partager le même mot de passe à travers la clé `my_key_1` ou `my_key_2`.
+
+La variable `vault_id_match` fait un matching strict sur les clés de vaults, il utilise le mot de passe correspondant à la clé. Par défault ansible teste tous les mots de passes avec tous les vaults.
+
+Mots de passes à utiliser :
+
+* password 1 : **pwd1**
+* password 2 : **pwd2**
 
 
 ## Commands
